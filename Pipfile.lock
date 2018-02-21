@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3a7311218584f537229039c362005a84117c27a32c82f8f151d3cb073f1a09fe"
+            "sha256": "b5d38829e397f5b42905b00a4a4d64c8f14fc373fce56bcb90fa565ef5eba9ea"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -226,6 +226,7 @@
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a",
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365"
             ],
+            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "pygments": {
@@ -276,6 +277,12 @@
                 "sha256:eff8c2faeda567a0bef5781f419a64e9977988db101652b312b9d74ec0a5109c"
             ],
             "version": "==4.3.1"
+        },
+        "seaborn": {
+            "hashes": [
+                "sha256:6702978b903d0284446e935916b980dfebae4063c18ad8eb6e8f9e76d0257eae"
+            ],
+            "version": "==0.8.1"
         },
         "send2trash": {
             "hashes": [
